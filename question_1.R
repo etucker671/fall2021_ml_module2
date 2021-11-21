@@ -31,3 +31,5 @@ mean(Direction_hat_lda == data$Direction)
 
 #alt confusion matrix method w/ calculated performance metrics - lda
 confusionMatrix(data = as.factor(Direction_hat_lda), reference = data$Direction)
+
+#change for git testing
