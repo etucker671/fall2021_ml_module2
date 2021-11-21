@@ -29,7 +29,7 @@ Direction_hat_lda <- lda_pred$class
 table(Direction_hat_lda,data$Direction)
 mean(Direction_hat_lda == data$Direction)
 
+#second change for git testing
+
 #alt confusion matrix method w/ calculated performance metrics - lda
 confusionMatrix(data = as.factor(Direction_hat_lda), reference = data$Direction)
-
-#change for git testing
